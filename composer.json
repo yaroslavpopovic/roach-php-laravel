@@ -1,25 +1,29 @@
 {
-    "name": "roach-php/laravel",
-    "description": "Laravel adapter for roach-php/core",
+    "name": "yaroslavpopovic/roach-php-laravel",
+    "description": "Laravel adapter for roach-php/core — fork of roach-php/laravel with Laravel 13 support",
     "license": "MIT",
     "type": "library",
     "authors": [
         {
+            "name": "Yaroslav Popovic"
+        },
+        {
             "name": "Kai Sassnowski",
-            "email": "me@kai-sassnowski.com"
+            "email": "me@kai-sassnowski.com",
+            "role": "Original author"
         }
     ],
     "require": {
-        "php": "~8.1.0 || ~8.2.0 || ~8.3.0 || ~8.4.0",
-        "laravel/framework": "^10.0 || ^11.0 || ^12.0",
+        "php": "~8.1.0 || ~8.2.0 || ~8.3.0 || ~8.4.0 || ~8.5.0",
+        "laravel/framework": "^10.0 || ^11.0 || ^12.0 || ^13.0",
         "roach-php/core": "^2.0 || ^3.0 || dev-main",
         "spatie/laravel-package-tools": "^1.11"
     },
     "require-dev": {
         "ergebnis/composer-normalize": "^2.15",
         "ergebnis/php-cs-fixer-config": "^6.19",
-        "orchestra/testbench": "^7.0 || ^8.0 || ^9.0 || ^10.0",
-        "phpunit/phpunit": "^10.0 || ^11.0",
+        "orchestra/testbench": "^7.0 || ^8.0 || ^9.0 || ^10.0 || ^11.0",
+        "phpunit/phpunit": "^10.0 || ^11.0 || ^12.0",
         "roave/security-advisories": "dev-latest",
         "spatie/phpunit-snapshot-assertions": "^5.0"
     },
